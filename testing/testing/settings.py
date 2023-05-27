@@ -55,7 +55,7 @@ ROOT_URLCONF = 'testing.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'testing_app/template/home-page', BASE_DIR/'testing_app/template/contact'],
+        'DIRS': [BASE_DIR/ 'testing_app/template/',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,7 +118,7 @@ USE_TZ = True
 
 STATIC_URL = 'testing_app/'
 STATICFILES_DIRS = [
-    BASE_DIR / "testing_app/static_file/index",
+    BASE_DIR / 'testing_app/static_file/index',
 ]
 
 
